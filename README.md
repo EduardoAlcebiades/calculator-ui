@@ -23,3 +23,8 @@ $ npm start
 ```
 
 O servidor será iniciado em http://localhost:3000.
+
+# Prints do Projeto
+
+<img src="project_print.jpg" alt="Print Web"/>
+<img src="project_print_mobile.jpg" alt="Print Mobile" style="width:200px"/>
