@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: s;
+
+  border: 0;
+  outline: 0;
+
+  background: white;
+  color: #444444;
+  border-radius: 0.2rem;
+
+  cursor: pointer;
+
+  transition: filter 0.2s;
+
+  overflow: hidden;
+
+  &:active {
+    filter: brightness(0.9);
+  }
+
+  .content {
+    font-size: 1rem;
+    font-weight: bold;
+
+    margin: auto;
+    padding: 0.7rem;
+  }
+
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    align-self: stretch;
+
+    padding: 0.5rem;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    svg {
+      font-size: 1rem;
+    }
+  }
+}
